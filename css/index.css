@@ -1,0 +1,25 @@
+body {
+    background: #29292a;
+}
+
+.work {
+    width: 70%;
+    margin-top: 50px;
+}
+
+.work * {
+    color: white;
+}
+
+.img {
+    width: 760px;
+    margin: auto;
+}
+
+.info {
+    padding-top: 10px;
+    background: #141414;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+}
