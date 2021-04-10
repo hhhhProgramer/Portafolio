@@ -1,6 +1,14 @@
-ScrollReveal(".information", { delay: 500 });
-ScrollReveal(".presentation", { delay: 500 });
-ScrollReveal(".redes", { delay: 500 });
+ScrollReveal().reveal(".information", { delay: 500 });
+ScrollReveal().reveal(".presentation", { delay: 500 });
+ScrollReveal().reveal(".redes", { delay: 500 });
+let tajets = document.getElementsByClassName("tarjet");
+for (let index = 0; index < tajets.length; index++) {
+    ScrollReveal().reveal('.tarjet', { delay: 500 });
+    ScrollReveal().reveal('.tarjet-text', { delay: 500 });
+}
+for (let index = 0; index < tajets.length; index++) {
+    ScrollReveal().reveal('.card', { delay: 500 });
+}
 
 let codes = ["document.getElementById('msg').innerText='hello world'", "document.getElementById('msg').innerText='Programador'"];
 let index = 0;
