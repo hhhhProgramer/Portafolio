@@ -292,12 +292,12 @@ body {
 
 /* Movil*/
 
-@media only screen and (max-width: 790px) and (orientation: landscape) {
+@media only screen and (max-width: 800px) and (orientation: landscape) {
     .presentation {
-        padding-bottom: 200vh;
+        padding-bottom: 800px;
     }
     .header {
-        height: 750px;
+        height: 800px;
         padding-bottom: 130px;
     }
 }
