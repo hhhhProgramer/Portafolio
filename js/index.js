@@ -34,12 +34,12 @@ function write() {
 
 write();
 
-let btnInfo = document.getElementById("btnInfo");
-let btnExp = document.getElementById("btnExp");
-let btnProyect = document.getElementById("btnProyect");
+let btnInfo = document.getElementById("btnInfo").getElementsByTagName("i")[0];
+let btnExp = document.getElementById("btnExp").getElementsByTagName("i")[0];
+let btnProyect = document.getElementById("btnProyect").getElementsByTagName("i")[0];
 
 function jump(btn) {
-    btn.classList.add("jump");
+    btn.getElementsByTagName("i")[0].classList.add("jump");
 }
 
 
@@ -65,3 +65,5 @@ btnProyect.addEventListener("animationend", function(e) {
 });
 /* */
 /* */
+
+document.getElementById("f").innerText = screen.width + "x" + screen.height;
