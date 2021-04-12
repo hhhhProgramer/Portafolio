@@ -2,21 +2,33 @@ body {
     background: #29292a;
 }
 
-.presentation {
-    padding-left: 100%;
-    padding-bottom: 100vh;
+.demo-wrap {}
+
+.demo-wrap:before {
+    content: ' ';
+    display: block;
     position: absolute;
-    background-size: cover;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
     opacity: 0.4;
+    background-image: url('https://raw.githubusercontent.com/hhhhProgramer/Portafolio/main/img/code-1839406_1280.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.demo-content {
+    position: relative;
 }
 
 .information {
-    background: url("https://raw.githubusercontent.com/hhhhProgramer/Portafolio/main/img/code-1839406_1280.jpg") no-repeat fixed;
-    background-size: cover;
-    padding-top: 40vh;
     display: grid;
+    padding-top: 40vh;
     grid-template-columns: 1fr 1fr;
     text-align: center;
+    margin-bottom: 400px;
 }
 
 .one-row {
@@ -222,10 +234,8 @@ body {
     .nav a {
         height: 50px;
     }
-    .header {
-        width: 100%;
+    .demo-wrap:before {
         height: 100vh;
-        text-align: center;
     }
     .information {
         position: block;
@@ -273,11 +283,7 @@ body {
 /* Movil*/
 
 @media only screen and (max-width: 800px) and (orientation: landscape) {
-    .presentation {
-        padding-bottom: 800px;
-    }
-    .header {
-        height: 800px;
-        padding-bottom: 130px;
+    .demo-wrap:before {
+        height: 200vh;
     }
 }
