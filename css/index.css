@@ -294,7 +294,7 @@ body {
 
 @media only screen and (max-width: 790px) and (orientation: landscape) {
     .presentation {
-        height: 800px;
+        padding-bottom: 200vh;
     }
     .header {
         height: 750px;
