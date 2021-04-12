@@ -62,3 +62,38 @@ body {
     font-size: 30px;
     color: wheat;
 }
+
+@media only screen and (max-width: 750px) {
+    .information {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .desc {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .desc h1 {
+        font-size: 60px;
+    }
+    .desc h2 {
+        font-size: 30px;
+        margin: auto;
+    }
+    #msg {
+        margin-top: 100px;
+    }
+    #code {
+        margin-top: 20px;
+        font-size: small;
+    }
+    #experience {
+        margin-top: 350px;
+    }
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+    .demo-wrap:before {
+        height: 800px;
+    }
+}

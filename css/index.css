@@ -235,7 +235,6 @@ body {
         height: 50px;
     }
     .information {
-        position: block;
         display: flex;
         flex-direction: column;
         text-align: center;
