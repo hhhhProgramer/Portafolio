@@ -294,13 +294,9 @@ body {
 
 @media screen and (max-width: 800px) and (orientation: landscape) {
     .presentation {
-        height: 700px;
+        height: 750px;
     }
     .header {
-        height: 700px;
+        height: 750px;
     }
-}
-
-#f {
-    color: wheat;
 }
