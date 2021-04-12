@@ -238,7 +238,6 @@ body {
         display: flex;
         flex-direction: column;
         text-align: center;
-        width: 100%;
     }
     .desc {
         margin-top: 20px;
@@ -259,10 +258,7 @@ body {
         font-size: small;
     }
     #experience {
-        padding-top: 90px;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 150px;
+        margin-top: 350px;
     }
     .d-block {
         min-height: 250px;
