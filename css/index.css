@@ -284,6 +284,6 @@ body {
 
 @media only screen and (max-width: 800px) and (orientation: landscape) {
     .demo-wrap:before {
-        height: 200vh;
+        height: 800px;
     }
 }
