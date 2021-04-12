@@ -90,7 +90,7 @@ body {
     background: black;
     border-radius: 20px;
     z-index: 1000;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .nav a {
@@ -294,16 +294,9 @@ body {
 
 @media screen and (max-width: 750px) and (orientation: landscape) {
     .presentation {
-        height: 800px;
+        height: 200vh;
     }
     .header {
-        height: 800px;
+        height: 200vh;
     }
-}
-
-
-/*delete*/
-
-#f {
-    color: wheat;
 }
