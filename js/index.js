@@ -33,3 +33,35 @@ function write() {
 }
 
 write();
+
+let btnInfo = document.getElementById("btnInfo");
+let btnExp = document.getElementById("btnExp");
+let btnProyect = document.getElementById("btnProyect");
+
+function jump(btn) {
+    btn.classList.add("jump");
+}
+
+
+btnInfo.addEventListener("webkitAnimationEnd", function(e) {
+    btnInfo.classList.remove("jump");
+});
+btnInfo.addEventListener("animationend", function(e) {
+    btnInfo.classList.remove("jump");
+});
+
+btnExp.addEventListener("webkitAnimationEnd", function(e) {
+    btnExp.classList.remove("jump");
+});
+btnExp.addEventListener("animationend", function(e) {
+    btnExp.classList.remove("jump");
+});
+
+btnProyect.addEventListener("webkitAnimationEnd", function(e) {
+    btnProyect.classList.remove("jump");
+});
+btnProyect.addEventListener("animationend", function(e) {
+    btnProyect.classList.remove("jump");
+});
+/* */
+/* */

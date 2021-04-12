@@ -17,14 +17,13 @@
 
 <body>
     <div class="nav">
-        <a href="#information"><i class="fa fa-user-circle-o fa-3x text-white" aria-hidden="true"></i></a>
-        <a href="#experience"><i class="fa fa-tasks fa-3x text-white" aria-hidden="true"></i></a>
-        <a href="#Proyects"><i class="fa fa-briefcase fa-3x text-white" aria-hidden="true"></i></a>
-
+        <a href="#information"><i id="btnInfo" onclick="jump(this)" class="fa fa-user-circle-o fa-3x text-white" aria-hidden="true"></i></a>
+        <a href="#experience"><i id="btnExp" onclick="jump(this)" class="fa fa-tasks fa-3x text-white" aria-hidden="true"></i></a>
+        <a href="#Proyects"><i  id="btnProyect" onclick="jump(this)" class="fa fa-briefcase fa-3x text-white" aria-hidden="true"></i></a>
     </div>
-    <div class="presentation"></div>
-    <div class="header" id="information">
 
+    <div class="header" id="information">
+        <div class="presentation"></div>
         <div class="information">
 
             <div class="redes">
@@ -153,18 +152,29 @@
                             <h5 class="card-title">Get Dance Now</h5>
                         </li>
                         <li class="list-group-item">
-                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div id="getdancenow" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="img/getdancenow.png" class="d-block w-100" alt="...">
+                                        <img src="img/getdancenow.png" class="d-block w-100" alt="..." data-bs-interval="1000">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="img/getdancenow.png" class="d-block w-100" alt="...">
+                                        <img src="img/Get Dance Now.png" class="d-block w-100" alt="..." data-bs-interval="1000">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="img/getdancenow.png" class="d-block w-100" alt="...">
+                                        <img src="img/Get Dance Now-1.png" class="d-block w-100" alt="..." data-bs-interval="1000">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/Get Dance Now-2.png" class="d-block w-100" alt="..." data-bs-interval="1000">
                                     </div>
                                 </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#getdancenow" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                  </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#getdancenow" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon text-black-50" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                  </button>
                             </div>
                         </li>
                         <li class="list-group-item ">
@@ -178,32 +188,51 @@
                 <div class="card-body">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item text-center">
-                            <h5 class="card-title">Get Dance Now</h5>
+                            <h5 class="card-title">Api web</h5>
                         </li>
                         <li class="list-group-item">
                             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="img/getdancenow.png" class="d-block w-100" alt="...">
+                                        <img src="img/code-1839406_1280.jpg" class="d-block w-100" alt="...">
                                     </div>
-                                    <div class="carousel-item">
-                                        <img src="img/getdancenow.png" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/getdancenow.png" class="d-block w-100" alt="...">
-                                    </div>
+
                                 </div>
                             </div>
                         </li>
                         <li class="list-group-item ">
-                            <p class="card-text">GetDanceNow es una aplicación desarrollada con la finalidad de ayudar a los usuarios a ubicar academias que imparten clases de bailes para así poder realizar un registro en dichas clases. Nuestro objetivo es ser la mejor aplicación
-                                referente a la búsqueda de academias y poder crecer de manera potencial para que podamos incluir otras actividades o hobbies.</p>
+                            <p class="card-text">Desarrollo de herramientas de tecnologia Web-Api que permite la administracion de la gestion de academias de bailes y usuarios de la misma</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-center">
+                            <h5 class="card-title">Cifrado</h5>
+                        </li>
+                        <li class="list-group-item">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/code-1839406_1280.jpg" class="d-block w-100" alt="...">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item ">
+                            <p class="card-text">cifrado basado en diferentes series de caracteres o letras del cifrado César formando estos caracteres una tabla, llamada tabla de Vigenère, que se usa como clave. El cifrado de Vigenère es un cifrado por sustitución simple
+                                polialfabético.
+                            </p>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
+
 
 
 

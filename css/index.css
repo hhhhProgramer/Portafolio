@@ -19,7 +19,7 @@ body {
 .presentation {
     padding-left: 100%;
     padding-bottom: 100vh;
-    background: url("https://raw.githubusercontent.com/hhhhProgramer/Portafolio/main/img/code-1839406_1280.jpg") no-repeat;
+    background: url("https://raw.githubusercontent.com/hhhhProgramer/Portafolio/main/img/code-1839406_1280.jpg") no-repeat fixed;
     position: absolute;
     background-size: cover;
     opacity: 0.4;
@@ -95,6 +95,7 @@ body {
 .nav a {
     margin-bottom: 10px;
     padding: 10px 10px;
+    height: 80px;
 }
 
 #Proyects {
@@ -122,6 +123,46 @@ body {
     padding-bottom: 10px;
     background: rgba(0, 0, 0, 0.3);
     border-radius: 20px;
+}
+
+.d-block {
+    min-height: 65vh;
+    max-height: 65vh;
+}
+
+.carousel-control-color {
+    color: black;
+}
+
+.card p {
+    font-size: larger;
+}
+
+#Proyects {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.jump {
+    animation: 1s jump;
+}
+
+@keyframes jump {
+    0% {
+        margin-top: 0px;
+    }
+    25% {
+        margin-top: -10px;
+    }
+    50% {
+        margin-top: 0px;
+    }
+    75% {
+        margin-top: -10px;
+    }
+    100% {
+        margin-top: 0px;
+    }
 }
 
 
@@ -162,6 +203,10 @@ body {
         background: rgba(0, 0, 0, 0.3);
         border-radius: 20px;
     }
+    .d-block {
+        min-height: 350px;
+        max-height: 350px;
+    }
 }
 
 
@@ -170,6 +215,13 @@ body {
 @media only screen and (orientation: landscape) and (max-width: 1200px) {
     .nav {
         margin-top: 35vh;
+    }
+    .card p {
+        font-size: medium;
+    }
+    .d-block {
+        min-height: 500px;
+        max-height: 500px;
     }
 }
 
@@ -225,6 +277,13 @@ body {
         display: flex;
         flex-direction: column;
         margin-bottom: 150px;
+    }
+    .d-block {
+        min-height: 250px;
+        max-height: 250px;
+    }
+    .card p {
+        font-size: medium;
     }
 }
 
