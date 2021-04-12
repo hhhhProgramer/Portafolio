@@ -292,11 +292,15 @@ body {
 
 /* Movil*/
 
-@media screen and (max-width: 780px) and (orientation: landscape) {
+@media screen and (max-width: 800px) and (orientation: landscape) {
     .presentation {
         height: 700px;
     }
     .header {
         height: 700px;
     }
+}
+
+#f {
+    color: wheat;
 }
