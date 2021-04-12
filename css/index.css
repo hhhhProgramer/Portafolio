@@ -294,9 +294,9 @@ body {
 
 @media screen and (max-width: 750px) and (orientation: landscape) {
     .presentation {
-        height: 200vh;
+        height: 700px;
     }
     .header {
-        height: 200vh;
+        height: 700px;
     }
 }
